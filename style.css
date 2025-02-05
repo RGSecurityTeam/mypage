@@ -1,0 +1,48 @@
+body {
+    background: #212121;
+    font-family: monospace, sans-serif;
+}
+nav {
+    position: absolute;
+    border: solid 1px #bbb;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0 0 10px #fff, 0 0 10px #00fffb, 0 0 10px #003cff;
+}
+nav h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 5px #00ffff, 0 0 15px #ff0000;
+}
+
+.terminal {
+    background-color: #2b2b2b;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    margin: 200px auto;
+}
+
+.command-line {
+    color: #00ff00; /* Green text color for commands */
+}
+
+.auto-writing { 
+    display: flex;
+    height: 20px;
+}
+#text {
+    color: #00ff00; /* Light blue color for output */
+    margin-right: 100%;
+    white-space: pre;
+    margin-left: 10px;
+}
+.prompt {
+    color: #ff5555; /* Red color for the prompt */
+}
